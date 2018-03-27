@@ -22,25 +22,21 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://localhost:4200/course-crud')
+WebUI.navigateToUrl('http://localhost:4200/course-edit')
 
-WebUI.click(findTestObject('UC3/i_add'))
+WebUI.setText(findTestObject('UC4/input_courseName'), 'Software Quality Assurance')
 
-WebUI.setText(findTestObject('UC3/input_name'), 'Software Quality Assurance')
+WebUI.setText(findTestObject('UC4/input_courseNum'), '953422')
 
-WebUI.setText(findTestObject('UC3/input_courseNum'), '953422')
+WebUI.setText(findTestObject('UC4/input_courseRoom'), 'CAMT114')
 
-WebUI.setText(findTestObject('UC3/input_courseRoom'), 'CAMT114')
+WebUI.setText(findTestObject('UC4/input_courseDate'), 'Friday 09:30-11:00')
 
-WebUI.setText(findTestObject('UC3/input_courseDate'), 'Friday 9:30-12:30')
+WebUI.setText(findTestObject('UC4/input_description (1)'), 'a')
 
-WebUI.setText(findTestObject('UC3/input_description'), 'Introduction to quality assurance. Code of ethics')
+WebUI.click(findTestObject('UC4/input_seat'))
 
-WebUI.click(findTestObject('UC3/input_seat'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('UC3/span_Select Option'))
-
-WebUI.verifyElementPresent(findTestObject('UC3/div_Seat number is required.'), 0)
+WebUI.verifyElementPresent(findTestObject('UC4/div_Course description must co'), 0)
 
 WebUI.closeBrowser()
 

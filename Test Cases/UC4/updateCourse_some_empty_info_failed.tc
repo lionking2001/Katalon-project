@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>updateCourse_some_empty_info_failed</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7713952c-1bae-4903-a101-a90a1fcf1213</testCaseGuid>
+</TestCaseEntity>
