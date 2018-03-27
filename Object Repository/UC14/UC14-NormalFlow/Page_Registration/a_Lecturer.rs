@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_loginbtn</name>
+   <name>a_Lecturer</name>
    <tag></tag>
-   <elementGuidId>b1e7f351-1d3c-4ebb-b19d-c356f4acd551</elementGuidId>
+   <elementGuidId>433dd1b5-8380-413c-88a4-91ba8de5afb9</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,41 +11,27 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>btn btn-large blue</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>href</name>
       <type>Main</type>
-      <value>loginbtn</value>
+      <value>/lecturer-crud</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>text</name>
       <type>Main</type>
-      <value>submit</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>LOGIN AS ADMIN</value>
+      <value>Lecturer</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;loginbtn&quot;)</value>
+      <value>/html[1]/body[1]/app-root[1]/app-student-crud[1]/body[@class=&quot;grey lighten-4&quot;]/nav[@class=&quot;blue darken-2&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;nav-wrapper&quot;]/ul[@class=&quot;right hide-on-med-and-down&quot;]/li[2]/a[1]</value>
    </webElementProperties>
 </WebElementEntity>

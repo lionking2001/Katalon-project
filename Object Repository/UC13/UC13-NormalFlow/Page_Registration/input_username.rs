@@ -3,7 +3,7 @@
    <description></description>
    <name>input_username</name>
    <tag></tag>
-   <elementGuidId>24ba61a7-737a-44ed-96bc-950e8d461715</elementGuidId>
+   <elementGuidId>dd961fca-90f3-429f-900d-6e89837959f3</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -46,7 +46,7 @@
       <matchCondition>equals</matchCondition>
       <name>ng-reflect-model</name>
       <type>Main</type>
-      <value>a</value>
+      <value>z</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

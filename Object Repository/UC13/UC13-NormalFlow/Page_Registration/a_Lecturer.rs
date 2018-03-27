@@ -3,7 +3,7 @@
    <description></description>
    <name>a_Lecturer</name>
    <tag></tag>
-   <elementGuidId>38a8b11e-c94b-4c02-99d8-d42a9e2e483a</elementGuidId>
+   <elementGuidId>64b939fd-dcc0-4b67-bc82-e55cb29892f8</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

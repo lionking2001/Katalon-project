@@ -3,7 +3,7 @@
    <description></description>
    <name>input_password</name>
    <tag></tag>
-   <elementGuidId>9b94b579-ecf0-4be2-ae44-2b5b855a822c</elementGuidId>
+   <elementGuidId>638addaa-4292-447e-afc8-be91c8e2c8a2</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
