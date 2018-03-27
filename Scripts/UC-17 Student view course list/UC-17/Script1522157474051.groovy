@@ -23,13 +23,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:4200/')
 
-WebUI.setText(findTestObject('Page_Registration (7)/input_username'), 'student')
+WebUI.setText(findTestObject('Page_Registration/input_username'), 'student')
 
-WebUI.setText(findTestObject('Page_Registration (7)/input_password'), 'student')
+WebUI.setText(findTestObject('Page_Registration/input_password'), 'student')
 
-WebUI.sendKeys(findTestObject('Page_Registration (7)/input_password'), Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Page_Registration/input_loginbtn'))
 
-WebUI.navigateToUrl('http://localhost:4200/login')
+WebUI.navigateToUrl('http://localhost:4200/term-course')
 
 WebUI.closeBrowser()
 
