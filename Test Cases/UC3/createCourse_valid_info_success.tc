@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>UC1-TC3</name>
+   <name>createCourse_valid_info_success</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>6184fa1c-69cc-4c22-a328-f325acee940d</testCaseGuid>
+   <testCaseGuid>5a8f8c35-5621-4a1d-9142-68c5ac77bad9</testCaseGuid>
 </TestCaseEntity>
