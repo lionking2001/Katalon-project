@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>UC12-AlternativeFlow_NonInputDOB</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6a74fb2d-a72d-4bf6-89ce-132889695303</testCaseGuid>
+</TestCaseEntity>
