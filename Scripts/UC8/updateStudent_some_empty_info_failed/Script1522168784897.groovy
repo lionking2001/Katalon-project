@@ -19,3 +19,25 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://localhost:4200/student-crud')
+
+WebUI.click(findTestObject('UC8/a_Edit (1)'))
+
+WebUI.setText(findTestObject('UC8/input_studentName (1)'), 'Praphusak')
+
+WebUI.setText(findTestObject('UC8/input_studentSurname (1)'), 'Tre-Intong')
+
+WebUI.setText(findTestObject('UC8/input_advisorName (1)'), 'Pathathai Na Lumpoon')
+
+WebUI.setText(findTestObject('UC8/input_studentPassword'), '123456')
+
+WebUI.setText(findTestObject('UC8/input_studentComfirmPassword'), 'a')
+
+WebUI.setText(findTestObject('UC8/input_dateStudent'), '01/01/1996')
+
+WebUI.verifyElementPresent(findTestObject('UC8/div_Password contian at least'), 0)
+
+WebUI.closeBrowser()
+
