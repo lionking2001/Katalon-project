@@ -23,13 +23,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:4200/')
 
-WebUI.setText(findTestObject('Page_Registration/input_username'), 'student')
+WebUI.setText(findTestObject('Page_Registration (4)/input_username'), 'student')
 
-WebUI.setText(findTestObject('Page_Registration/input_password'), 'student')
+WebUI.setText(findTestObject('Page_Registration (4)/input_password'), 'student')
 
-WebUI.click(findTestObject('Page_Registration/input_loginbtn'))
+WebUI.click(findTestObject('Page_Registration (4)/input_loginbtn'))
 
-WebUI.navigateToUrl('http://localhost:4200/student-error')
+WebUI.navigateToUrl('http://localhost:4200/student-payment')
 
 WebUI.closeBrowser()
 
