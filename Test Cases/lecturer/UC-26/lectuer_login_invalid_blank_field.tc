@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>lectuer_login_invalid_blank_field</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0571e860-9921-43cf-a76a-87a4de25649f</testCaseGuid>
+</TestCaseEntity>
