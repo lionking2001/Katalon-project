@@ -18,4 +18,32 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://localhost:4200/admin')
+
+WebUI.setText(findTestObject('UC11/UC11-Error not meet minimum length/Page_Registration/input_username'), 'admin')
+
+WebUI.setText(findTestObject('UC11/UC11-Error not meet minimum length/Page_Registration/input_password'), 'admin')
+
+WebUI.click(findTestObject('UC11/UC11-Error not meet minimum length/Page_Registration/input_loginbtn'))
+
+WebUI.navigateToUrl('http://localhost:4200/lecturer-crud')
+
+WebUI.click(findTestObject('UC11/UC11-Error not meet minimum length/Page_Registration/i_add'))
+
+WebUI.setText(findTestObject('UC11/UC11-Error not meet minimum length/Page_Registration/input_name'), 'abc')
+
+WebUI.setText(findTestObject('UC11/UC11-Error not meet minimum length/Page_Registration/input_surname'), 'abc')
+
+WebUI.setText(findTestObject('UC11/UC11-Error not meet minimum length/Page_Registration/input_email'), 'abc@gmail.com')
+
+WebUI.setText(findTestObject('UC11/UC11-Error not meet minimum length/Page_Registration/input_date'), '1')
+
+WebUI.click(findTestObject('UC11/UC11-Error not meet minimum length/Page_Registration/input_address'))
+
+WebUI.verifyElementPresent(findTestObject('UC11/UC11-Error not meet minimum length/Page_Registration/div_Date must contian 6 letter'), 
+    0)
 
