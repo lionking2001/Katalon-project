@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>createCourse_input_somefield_failed</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ba4280d2-7217-49db-adb7-35bf4b2d1543</testCaseGuid>
+</TestCaseEntity>
