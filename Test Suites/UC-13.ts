@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>New Test Suite (1)</name>
+   <name>UC-13</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-03-28T00:36:14</lastRun>
+   <lastRun>2018-03-28T01:34:40</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>ff80eb68-0027-49f5-b292-7a9bf7cde30c</testSuiteGuid>
+   <testSuiteGuid>21d07369-5532-4d67-9690-cb108856125f</testSuiteGuid>
    <testCaseLink>
-      <guid>32a9df7a-55f1-4316-8790-cbe1e4593efc</guid>
+      <guid>06a85eda-93d1-41aa-a6f7-94000e7ad18c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/UC2/Logout_Success</testCaseId>
+      <testCaseId>Test Cases/UC13/UC13-NormalFlow</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

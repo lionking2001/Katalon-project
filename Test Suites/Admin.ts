@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteCollectionEntity>
    <description></description>
-   <name>New Test Suite Collection</name>
+   <name>Admin</name>
    <tag></tag>
    <executionMode>PARALLEL</executionMode>
    <testSuiteRunConfigurations>
@@ -11,7 +11,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/New Test Suite (1)</testSuiteEntity>
+         <testSuiteEntity>Test Suites/UC-02</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -19,7 +19,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/New Test Suite</testSuiteEntity>
+         <testSuiteEntity>Test Suites/UC-01</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -27,7 +27,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/New Test Suite (6)</testSuiteEntity>
+         <testSuiteEntity>Test Suites/UC-07</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -35,7 +35,47 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/New Test Suite (8)</testSuiteEntity>
+         <testSuiteEntity>Test Suites/UC-09</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Web Desktop</groupName>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </configuration>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/UC-08</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Web Desktop</groupName>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </configuration>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/UC-06</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Web Desktop</groupName>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </configuration>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/UC-05</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Web Desktop</groupName>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </configuration>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/UC-04</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Web Desktop</groupName>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </configuration>
+         <runEnabled>false</runEnabled>
+         <testSuiteEntity>Test Suites/UC-03</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -43,7 +83,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/New Test Suite (7)</testSuiteEntity>
+         <testSuiteEntity>Test Suites/UC-11</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -51,7 +91,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/New Test Suite (5)</testSuiteEntity>
+         <testSuiteEntity>Test Suites/UC-12</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -59,7 +99,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/New Test Suite (4)</testSuiteEntity>
+         <testSuiteEntity>Test Suites/UC-14</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -67,15 +107,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/New Test Suite (3)</testSuiteEntity>
-      </TestSuiteRunConfiguration>
-      <TestSuiteRunConfiguration>
-         <configuration>
-            <groupName>Web Desktop</groupName>
-            <runConfigurationId>Chrome</runConfigurationId>
-         </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/New Test Suite (2)</testSuiteEntity>
+         <testSuiteEntity>Test Suites/UC-13</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

@@ -1,0 +1,7 @@
+Suite/Test/Step NameSuite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+C-133,81rome 65.0.3325.181,me hrome3325.,61-1-038 01:34:43,2561-03-25 01-:34:-238 01:35:36,1-01-08 015:35:3365s,AIILE
+,,,,,,
+Test Cases/UC13/UC13-NormalFlow,Chrome 65.0.3325.181,,2561-03-28 01:34:45,2561-03-28 01:35:34,49.272s,FAILED
+openBrowser,Chrome 65.0.3325.181,,2561-03-28 01:34:46,2561-03-28 01:35:00,14.365s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,,2561-03-28 01:35:00,2561-03-28 01:35:03,2.853s,PASSED
+setText,Chrome 65.0.3325.181,,2561-03-28 01:35:03,2561-03-28 01:35:34,31.052s,FAILED

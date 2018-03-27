@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="UC-14" time="53" tests="0" failures="1" errors="0">
+   <testsuite name="UC-14" tests="0" failures="1" errors="0" time="53" timestamp="2561-03-28 01:34:43" hostname="MSI Raider - 192.168.178.2" id="Test Suites/UC-14">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\MSI Raider\\git\\Katalon-project1\\Reports\\UC-14\\25610328_013440"/>
+         <property name="logFiles" value="C:\\Users\\MSI Raider\\git\\Katalon-project1\\Reports\\UC-14\\25610328_013440\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\MSI Raider\\git\\Katalon-project1\\Reports\\UC-14\\25610328_013440\\1522175734358.png"/>
+         <property name="hostName" value="MSI Raider - 192.168.178.2"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="192.168.178.2"/>
+         <property name="sessionId" value="c0c3f675915148e24bf2066b17b0c83e"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/UC14/U14-NormalFlow" classname="Test Cases/UC14/U14-NormalFlow" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'admin' of object 'Object Repository/UC10/Page_Registration/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/UC10/Page_Registration/input_username' located by 'By.xpath: //input[@name = 'username' and @type = 'text']' not found)"/>
+         <system-out><![CDATA[2561-03-28 01:34:44 - [TEST_CASE][FAILED] - Test Cases/UC14/U14-NormalFlow: Test Cases/UC14/U14-NormalFlow FAILED because (of) Unable to set text 'admin' of object 'Object Repository/UC10/Page_Registration/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/UC10/Page_Registration/input_username' located by 'By.xpath: //input[@name = 'username' and @type = 'text']' not found)
+
+2561-03-28 01:34:45 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2561-03-28 01:34:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2561-03-28 01:34:59 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:4200/admin' successfully
+
+2561-03-28 01:35:03 - [MESSAGE][PASSED] - Navigate to 'http://localhost:4200/admin' successfully
+
+2561-03-28 01:35:03 - [TEST_STEP][FAILED] - setText: Unable to set text 'admin' of object 'Object Repository/UC10/Page_Registration/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/UC10/Page_Registration/input_username' located by 'By.xpath: //input[@name = 'username' and @type = 'text']' not found)
+
+2561-03-28 01:35:35 - [MESSAGE][FAILED] - Unable to set text 'admin' of object 'Object Repository/UC10/Page_Registration/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/UC10/Page_Registration/input_username' located by 'By.xpath: //input[@name = 'username' and @type = 'text']' not found)
+[[ATTACHMENT|C:\\Users\\MSI Raider\\git\\Katalon-project1\\Reports\\UC-14\\25610328_013440\\1522175734358.png]]]]></system-out>
+         <system-err><![CDATA[2561-03-28 01:34:44 - [TEST_CASE][FAILED] - Test Cases/UC14/U14-NormalFlow: Test Cases/UC14/U14-NormalFlow FAILED because (of) Unable to set text 'admin' of object 'Object Repository/UC10/Page_Registration/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/UC10/Page_Registration/input_username' located by 'By.xpath: //input[@name = 'username' and @type = 'text']' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2561-03-28 01:34:43 - [TEST_SUITE][FAILED] - UC-14: Test Cases/UC14/U14-NormalFlow FAILED because (of) Unable to set text 'admin' of object 'Object Repository/UC10/Page_Registration/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/UC10/Page_Registration/input_username' located by 'By.xpath: //input[@name = 'username' and @type = 'text']' not found)]]></system-out>
+      <system-err><![CDATA[2561-03-28 01:34:43 - [TEST_SUITE][FAILED] - UC-14: Test Cases/UC14/U14-NormalFlow FAILED because (of) Unable to set text 'admin' of object 'Object Repository/UC10/Page_Registration/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/UC10/Page_Registration/input_username' located by 'By.xpath: //input[@name = 'username' and @type = 'text']' not found)]]></system-err>
+   </testsuite>
+</testsuites>

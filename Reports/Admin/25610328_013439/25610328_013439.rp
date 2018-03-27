@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportCollectionEntity>
+   <description></description>
+   <name>25610328_013439</name>
+   <tag></tag>
+   <displayName>25610328_013439</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/UC-11/25610328_013439</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </runConfigDescription>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/UC-12/25610328_013439</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </runConfigDescription>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/UC-14/25610328_013440</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </runConfigDescription>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/UC-13/25610328_013440</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </runConfigDescription>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+</ReportCollectionEntity>

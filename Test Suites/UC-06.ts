@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>New Test Suite (7)</name>
+   <name>UC-06</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <lastRun>2018-03-28T00:37:43</lastRun>
@@ -10,17 +10,11 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>5742d109-75a5-4701-b115-2ef3915db493</testSuiteGuid>
+   <testSuiteGuid>c76cf2f4-91d5-499c-aeb1-d0e23a75076d</testSuiteGuid>
    <testCaseLink>
-      <guid>6ba1c3ed-64d3-4e66-bc54-69b5b30cba65</guid>
+      <guid>f9e5478c-cdd7-4885-89a1-e5ddd4d947de</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/UC8/updateStudent_some_empty_info_failed</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>c70dec70-adb1-4582-9f7b-6d70570021c0</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/UC8/updateStudent_valid_info_success</testCaseId>
+      <testCaseId>Test Cases/UC6/deleteCourse_success</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
