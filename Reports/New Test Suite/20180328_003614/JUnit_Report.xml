@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="54" tests="3" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="3" failures="0" errors="0" time="54" timestamp="2018-03-28 00:36:19" hostname="sear_cheulong - DESKTOP-945KT5Q" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\sear_cheulong\\git\\Katalon-project\\Reports\\New Test Suite\\20180328_003614"/>
+         <property name="logFiles" value="C:\\Users\\sear_cheulong\\git\\Katalon-project\\Reports\\New Test Suite\\20180328_003614\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="sear_cheulong - DESKTOP-945KT5Q"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="192.168.1.3"/>
+         <property name="sessionId" value="c5344a1c4d2f8aa536a00bc8287af271"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/UC1/Login_invalidUsername_invalidPassword_Failed" classname="Test Cases/UC1/Login_invalidUsername_invalidPassword_Failed" status="PASSED">
+         <system-out><![CDATA[2018-03-28 00:36:21 - [TEST_CASE][PASSED] - Test Cases/UC1/Login_invalidUsername_invalidPassword_Failed: Test Cases/UC1/Login_invalidUsername_invalidPassword_Failed
+
+2018-03-28 00:36:22 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-28 00:36:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-28 00:36:34 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:4200/admin' successfully
+
+2018-03-28 00:36:41 - [MESSAGE][PASSED] - Navigate to 'http://localhost:4200/admin' successfully
+
+2018-03-28 00:36:41 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/UC1/Page_Registration/input_username'
+
+2018-03-28 00:36:41 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/UC1/Page_Registration/input_username'
+
+2018-03-28 00:36:41 - [TEST_STEP][PASSED] - setText: Text 'password' is set on object 'Object Repository/UC1/Page_Registration/input_password'
+
+2018-03-28 00:36:42 - [MESSAGE][PASSED] - Text 'password' is set on object 'Object Repository/UC1/Page_Registration/input_password'
+
+2018-03-28 00:36:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/UC1/Page_Registration/input_loginbtn' is clicked on
+
+2018-03-28 00:36:42 - [MESSAGE][PASSED] - Object: 'Object Repository/UC1/Page_Registration/input_loginbtn' is clicked on
+
+2018-03-28 00:36:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/UC1/Page_Registration/div_Username or Password is in' is clicked on
+
+2018-03-28 00:36:43 - [MESSAGE][PASSED] - Object: 'Object Repository/UC1/Page_Registration/div_Username or Password is in' is clicked on
+
+2018-03-28 00:36:43 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/UC1/Page_Registration/div_Username or Password is in' is present
+
+2018-03-28 00:36:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-03-28 00:36:43 - [MESSAGE][PASSED] - Object 'Object Repository/UC1/Page_Registration/div_Username or Password is in' is present
+
+2018-03-28 00:36:43 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-28 00:36:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UC1/Login_validUsernamePassword_Success" classname="Test Cases/UC1/Login_validUsernamePassword_Success" status="PASSED">
+         <system-out><![CDATA[2018-03-28 00:36:52 - [TEST_CASE][PASSED] - Test Cases/UC1/Login_validUsernamePassword_Success: Test Cases/UC1/Login_validUsernamePassword_Success
+
+2018-03-28 00:36:52 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-28 00:36:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-28 00:36:55 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:4200/admin' successfully
+
+2018-03-28 00:37:03 - [MESSAGE][PASSED] - Navigate to 'http://localhost:4200/admin' successfully
+
+2018-03-28 00:37:03 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/UC1/Page_Registration/input_username'
+
+2018-03-28 00:37:03 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/UC1/Page_Registration/input_username'
+
+2018-03-28 00:37:03 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/UC1/Page_Registration/input_password'
+
+2018-03-28 00:37:03 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/UC1/Page_Registration/input_password'
+
+2018-03-28 00:37:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/UC1/Page_Registration/input_loginbtn' is clicked on
+
+2018-03-28 00:37:03 - [MESSAGE][PASSED] - Object: 'Object Repository/UC1/Page_Registration/input_loginbtn' is clicked on
+
+2018-03-28 00:37:03 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/UC1/Page_Registration/span_Student list' is present
+
+2018-03-28 00:37:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-03-28 00:37:03 - [MESSAGE][PASSED] - Object 'Object Repository/UC1/Page_Registration/span_Student list' is present
+
+2018-03-28 00:37:03 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-28 00:37:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UC1/Login_validUsername_EmptyPassword_Failed" classname="Test Cases/UC1/Login_validUsername_EmptyPassword_Failed" status="PASSED">
+         <system-out><![CDATA[2018-03-28 00:37:04 - [TEST_CASE][PASSED] - Test Cases/UC1/Login_validUsername_EmptyPassword_Failed: Test Cases/UC1/Login_validUsername_EmptyPassword_Failed
+
+2018-03-28 00:37:05 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-28 00:37:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-28 00:37:07 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:4200/admin' successfully
+
+2018-03-28 00:37:12 - [MESSAGE][PASSED] - Navigate to 'http://localhost:4200/admin' successfully
+
+2018-03-28 00:37:12 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/UC1/Page_Registration/input_username'
+
+2018-03-28 00:37:12 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/UC1/Page_Registration/input_username'
+
+2018-03-28 00:37:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/UC1/Page_Registration/input_loginbtn' is clicked on
+
+2018-03-28 00:37:12 - [MESSAGE][PASSED] - Object: 'Object Repository/UC1/Page_Registration/input_loginbtn' is clicked on
+
+2018-03-28 00:37:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/UC1/Page_Registration/div_Please Fill the Field' is clicked on
+
+2018-03-28 00:37:12 - [MESSAGE][PASSED] - Object: 'Object Repository/UC1/Page_Registration/div_Please Fill the Field' is clicked on
+
+2018-03-28 00:37:12 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/UC1/Page_Registration/div_Please Fill the Field' is present
+
+2018-03-28 00:37:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-03-28 00:37:13 - [MESSAGE][PASSED] - Object 'Object Repository/UC1/Page_Registration/div_Please Fill the Field' is present
+
+2018-03-28 00:37:13 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-28 00:37:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-28 00:36:19 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/UC1/Login_validUsername_EmptyPassword_Failed]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
