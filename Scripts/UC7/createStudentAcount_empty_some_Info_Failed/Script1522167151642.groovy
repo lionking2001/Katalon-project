@@ -36,11 +36,17 @@ WebUI.setText(findTestObject('UC7/input_advisorName'), 'Pathathai Na Lumpoon')
 
 WebUI.setText(findTestObject('UC7/input_password'), '123456')
 
-WebUI.click(findTestObject('UC7/input_password2'), FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('UC7/input_password2'), '123456')
 
-WebUI.click(findTestObject('UC7/input_date'), FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('UC7/input_date'), '01/01/1996')
 
-WebUI.click(findTestObject('UC7/div_Password is required.'))
+WebUI.setText(findTestObject('UC7/input_address'), 'Chiang Mai')
+
+WebUI.setText(findTestObject('UC7/input_phone'), '01234567890')
+
+WebUI.click(findTestObject('UC7/a_Submit'))
+
+WebUI.verifyElementPresent(findTestObject('UC7/td_Praphusak Tre-inthong (1)'), 0)
 
 WebUI.closeBrowser()
 

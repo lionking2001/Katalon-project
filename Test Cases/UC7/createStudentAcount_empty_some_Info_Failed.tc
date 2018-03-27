@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>createStudentAcount_empty_some_Info_Failed</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d9fc08a4-8346-4c59-86bc-731ddf8a9638</testCaseGuid>
+</TestCaseEntity>
