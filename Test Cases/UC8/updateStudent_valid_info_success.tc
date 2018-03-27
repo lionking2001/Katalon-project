@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>updateStudent_valid_info_success</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e57f41f5-1607-4c31-89a7-d5c20b1d648a</testCaseGuid>
+</TestCaseEntity>

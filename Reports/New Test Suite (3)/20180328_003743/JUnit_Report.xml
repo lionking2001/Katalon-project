@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite (3)" time="52" tests="2" failures="0" errors="0">
+   <testsuite name="New Test Suite (3)" tests="2" failures="0" errors="0" time="52" timestamp="2018-03-28 00:37:57" hostname="sear_cheulong - DESKTOP-945KT5Q" id="Test Suites/New Test Suite (3)">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\sear_cheulong\\git\\Katalon-project\\Reports\\New Test Suite (3)\\20180328_003743"/>
+         <property name="logFiles" value="C:\\Users\\sear_cheulong\\git\\Katalon-project\\Reports\\New Test Suite (3)\\20180328_003743\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="sear_cheulong - DESKTOP-945KT5Q"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="192.168.1.3"/>
+         <property name="sessionId" value="34f1ead18dcde6fe15872a16fd46c983"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/UC4/updateCourse_some_empty_info_failed" classname="Test Cases/UC4/updateCourse_some_empty_info_failed" status="PASSED">
+         <system-out><![CDATA[2018-03-28 00:37:58 - [TEST_CASE][PASSED] - Test Cases/UC4/updateCourse_some_empty_info_failed: Test Cases/UC4/updateCourse_some_empty_info_failed
+
+2018-03-28 00:37:59 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-28 00:38:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-28 00:38:12 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:4200/course-edit' successfully
+
+2018-03-28 00:38:26 - [MESSAGE][PASSED] - Navigate to 'http://localhost:4200/course-edit' successfully
+
+2018-03-28 00:38:26 - [TEST_STEP][PASSED] - setText: Text 'Software Quality Assurance' is set on object 'Object Repository/UC4/input_courseName'
+
+2018-03-28 00:38:27 - [MESSAGE][PASSED] - Text 'Software Quality Assurance' is set on object 'Object Repository/UC4/input_courseName'
+
+2018-03-28 00:38:27 - [TEST_STEP][PASSED] - setText: Text '953422' is set on object 'Object Repository/UC4/input_courseNum'
+
+2018-03-28 00:38:28 - [MESSAGE][PASSED] - Text '953422' is set on object 'Object Repository/UC4/input_courseNum'
+
+2018-03-28 00:38:28 - [TEST_STEP][PASSED] - setText: Text 'CAMT114' is set on object 'Object Repository/UC4/input_courseRoom'
+
+2018-03-28 00:38:28 - [MESSAGE][PASSED] - Text 'CAMT114' is set on object 'Object Repository/UC4/input_courseRoom'
+
+2018-03-28 00:38:28 - [TEST_STEP][PASSED] - setText: Text 'Friday 09:30-11:00' is set on object 'Object Repository/UC4/input_courseDate'
+
+2018-03-28 00:38:29 - [MESSAGE][PASSED] - Text 'Friday 09:30-11:00' is set on object 'Object Repository/UC4/input_courseDate'
+
+2018-03-28 00:38:29 - [TEST_STEP][PASSED] - setText: Text 'a' is set on object 'Object Repository/UC4/input_description (1)'
+
+2018-03-28 00:38:29 - [MESSAGE][PASSED] - Text 'a' is set on object 'Object Repository/UC4/input_description (1)'
+
+2018-03-28 00:38:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/UC4/input_seat' is clicked on
+
+2018-03-28 00:38:30 - [MESSAGE][PASSED] - Object: 'Object Repository/UC4/input_seat' is clicked on
+
+2018-03-28 00:38:30 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/UC4/div_Course description must co' is present
+
+2018-03-28 00:38:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-03-28 00:38:30 - [MESSAGE][PASSED] - Object 'Object Repository/UC4/div_Course description must co' is present
+
+2018-03-28 00:38:30 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-28 00:38:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UC4/updateCourse_valid_info-success" classname="Test Cases/UC4/updateCourse_valid_info-success" status="PASSED">
+         <system-out><![CDATA[2018-03-28 00:38:32 - [TEST_CASE][PASSED] - Test Cases/UC4/updateCourse_valid_info-success: Test Cases/UC4/updateCourse_valid_info-success
+
+2018-03-28 00:38:32 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-28 00:38:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-28 00:38:35 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:4200/course-edit' successfully
+
+2018-03-28 00:38:45 - [MESSAGE][PASSED] - Navigate to 'http://localhost:4200/course-edit' successfully
+
+2018-03-28 00:38:45 - [TEST_STEP][PASSED] - setText: Text 'Software Quality Assurance' is set on object 'Object Repository/UC4/input_courseName'
+
+2018-03-28 00:38:46 - [MESSAGE][PASSED] - Text 'Software Quality Assurance' is set on object 'Object Repository/UC4/input_courseName'
+
+2018-03-28 00:38:46 - [TEST_STEP][PASSED] - setText: Text '953422' is set on object 'Object Repository/UC4/input_courseNum'
+
+2018-03-28 00:38:46 - [MESSAGE][PASSED] - Text '953422' is set on object 'Object Repository/UC4/input_courseNum'
+
+2018-03-28 00:38:46 - [TEST_STEP][PASSED] - setText: Text 'CAMT114' is set on object 'Object Repository/UC4/input_courseRoom'
+
+2018-03-28 00:38:47 - [MESSAGE][PASSED] - Text 'CAMT114' is set on object 'Object Repository/UC4/input_courseRoom'
+
+2018-03-28 00:38:47 - [TEST_STEP][PASSED] - setText: Text 'Friday 09:30-11:00' is set on object 'Object Repository/UC4/input_courseDate'
+
+2018-03-28 00:38:47 - [MESSAGE][PASSED] - Text 'Friday 09:30-11:00' is set on object 'Object Repository/UC4/input_courseDate'
+
+2018-03-28 00:38:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/UC4/button_Save' is clicked on
+
+2018-03-28 00:38:47 - [MESSAGE][PASSED] - Object: 'Object Repository/UC4/button_Save' is clicked on
+
+2018-03-28 00:38:47 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/UC4/h4_Update Success' is present
+
+2018-03-28 00:38:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-03-28 00:38:48 - [MESSAGE][PASSED] - Object 'Object Repository/UC4/h4_Update Success' is present
+
+2018-03-28 00:38:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/UC4/a_OK' is clicked on
+
+2018-03-28 00:38:48 - [MESSAGE][PASSED] - Object: 'Object Repository/UC4/a_OK' is clicked on
+
+2018-03-28 00:38:48 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-28 00:38:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-28 00:37:57 - [TEST_SUITE][PASSED] - New Test Suite (3): Test Cases/UC4/updateCourse_valid_info-success]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

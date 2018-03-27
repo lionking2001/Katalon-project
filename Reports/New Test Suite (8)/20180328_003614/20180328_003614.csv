@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite (8),Chrome 65.0.3325.181,,2018-03-28 00:36:28,2018-03-28 00:36:49,21.666s,PASSED
+,,,,,,
+Test Cases/UC9/viewStudentList,Chrome 65.0.3325.181,,2018-03-28 00:36:29,2018-03-28 00:36:49,20.321s,PASSED
+openBrowser,Chrome 65.0.3325.181,,2018-03-28 00:36:29,2018-03-28 00:36:37,7.874s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,,2018-03-28 00:36:37,2018-03-28 00:36:46,8.488s,PASSED
+click,Chrome 65.0.3325.181,,2018-03-28 00:36:46,2018-03-28 00:36:46,0.689s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,,2018-03-28 00:36:46,2018-03-28 00:36:47,0.076s,PASSED
+closeBrowser,Chrome 65.0.3325.181,,2018-03-28 00:36:47,2018-03-28 00:36:49,2.502s,PASSED

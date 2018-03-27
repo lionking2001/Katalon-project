@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>updateStudent_some_empty_info_failed</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cb3a8f37-ab67-498f-a587-0d68335420b3</testCaseGuid>
+</TestCaseEntity>

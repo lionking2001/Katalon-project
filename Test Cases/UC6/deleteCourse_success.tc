@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>deleteCourse_success</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cb3060c8-4e0a-4d18-ba7a-8d9e38de0474</testCaseGuid>
+</TestCaseEntity>
