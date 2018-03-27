@@ -34,23 +34,21 @@ WebUI.navigateToUrl('http://localhost:4200/lecturer-crud')
 
 WebUI.click(findTestObject('UC11/UC11-NormalFlow/Page_Registration/i_add'))
 
-WebUI.setText(findTestObject('UC11/UC11-NormalFlow/Page_Registration/input_name'), 'ABC')
+WebUI.setText(findTestObject('UC11/UC11-NormalFlow/Page_Registration/input_name'), 'Allyn')
 
-WebUI.setText(findTestObject('UC11/UC11-NormalFlow/Page_Registration/input_surname'), 'ABC')
+WebUI.setText(findTestObject('UC11/UC11-NormalFlow/Page_Registration/input_surname'), 'Trace')
 
-WebUI.setText(findTestObject('UC11/UC11-NormalFlow/Page_Registration/input_email'), 'ASAsaSASASAS')
+WebUI.setText(findTestObject('UC11/UC11-NormalFlow/Page_Registration/input_email'), 'Allyn_t@abc.ac.th')
 
-WebUI.setText(findTestObject('UC11/UC11-NormalFlow/Page_Registration/input_date'), '10/06/2551')
+WebUI.setText(findTestObject('UC11/UC11-NormalFlow/Page_Registration/input_date'), '8/10/1987')
 
-WebUI.setText(findTestObject('UC11/UC11-NormalFlow/Page_Registration/input_address'), '137,12 Losangles Californai')
+WebUI.setText(findTestObject('UC11/UC11-NormalFlow/Page_Registration/input_address'), '137 Idahaho,Twin Fall')
 
 WebUI.click(findTestObject('UC11/UC11-NormalFlow/Page_Registration/span_Select Option'))
 
 WebUI.click(findTestObject('UC11/UC11-NormalFlow/Page_Registration/span_Faculty of Humanities'))
 
-WebUI.setText(findTestObject('UC11/UC11-NormalFlow/Page_Registration/input_phone'), '045661054')
-
-WebUI.click(findTestObject('UC11/UC11-NormalFlow/Page_Registration/div_Add Lecturer'))
+WebUI.setText(findTestObject('UC11/UC11-NormalFlow/Page_Registration/input_phone'), '11411111')
 
 WebUI.click(findTestObject('UC11/UC11-NormalFlow/Page_Registration/input_courseBtn'))
 
