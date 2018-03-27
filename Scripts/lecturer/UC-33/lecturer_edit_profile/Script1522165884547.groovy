@@ -46,7 +46,7 @@ WebUI.setText(findTestObject('UC-33/input_date (2)'), '4/5/1994 ')
 
 WebUI.setText(findTestObject('UC-33/input_address (2)'), '1953 Maud Street Philadelphia DE 19103 ')
 
-WebUI.click(findTestObject('UC-33/span_College of Art Media And (2)'))
+WebUI.click(findTestObject('UC-33/input_select-dropdown'))
 
 WebUI.click(findTestObject('UC-33/span_College of Art Media And (2)'))
 
