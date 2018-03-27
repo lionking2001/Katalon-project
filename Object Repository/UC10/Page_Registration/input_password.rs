@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_username</name>
+   <name>input_password</name>
    <tag></tag>
-   <elementGuidId>8ae3e94e-91a1-4fe6-a837-e115de35f879</elementGuidId>
+   <elementGuidId>146dceb4-8fbe-4da5-b2e0-04e923e2e17d</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,21 +25,21 @@
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>username</value>
+      <value>password</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>text</value>
+      <value>password</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-reflect-name</name>
       <type>Main</type>
-      <value>username</value>
+      <value>password</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,6 +53,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;username&quot;)/input[@class=&quot;validate ng-untouched ng-dirty ng-valid&quot;]</value>
+      <value>id(&quot;password&quot;)/input[@class=&quot;validate ng-untouched ng-dirty ng-valid&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

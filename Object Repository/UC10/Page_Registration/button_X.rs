@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_loginbtn</name>
+   <name>button_X</name>
    <tag></tag>
-   <elementGuidId>ef49483e-f853-4755-bcc2-8a229167d724</elementGuidId>
+   <elementGuidId>d97d5954-044a-4169-b4bc-09eb3df683f1</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,41 +11,27 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-large blue</value>
+      <value>btn red</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>text</name>
       <type>Main</type>
-      <value>loginbtn</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>submit</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>LOGIN AS ADMIN</value>
+      <value>X</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;loginbtn&quot;)</value>
+      <value>/html[1]/body[1]/app-root[1]/app-student-crud[1]/body[@class=&quot;grey lighten-4&quot;]/section[@class=&quot;section section-users grey lighten-4&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col s12&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-content&quot;]/table[@class=&quot;striped&quot;]/tbody[1]/tr[1]/td[5]/button[@class=&quot;btn red&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_password</name>
+   <name>input_loginbtn</name>
    <tag></tag>
-   <elementGuidId>9dab3c8a-fe5e-4b58-847e-2b4f93099f8c</elementGuidId>
+   <elementGuidId>f67b0d73-9683-498c-b3a6-8fbdd8ff6079</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,41 +18,34 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>validate ng-untouched ng-dirty ng-valid</value>
+      <value>btn btn-large blue</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>id</name>
       <type>Main</type>
-      <value>password</value>
+      <value>loginbtn</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>password</value>
+      <value>submit</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>ng-reflect-name</name>
+      <name>value</name>
       <type>Main</type>
-      <value>password</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-reflect-model</name>
-      <type>Main</type>
-      <value>a</value>
+      <value>LOGIN AS ADMIN</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;password&quot;)/input[@class=&quot;validate ng-untouched ng-dirty ng-valid&quot;]</value>
+      <value>id(&quot;loginbtn&quot;)</value>
    </webElementProperties>
 </WebElementEntity>

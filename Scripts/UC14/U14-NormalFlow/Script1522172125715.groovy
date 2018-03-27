@@ -24,17 +24,15 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:4200/admin')
 
-WebUI.setText(findTestObject('UC14/UC14-NormalFlow/Page_Registration/input_username'), 'admin')
+WebUI.setText(findTestObject('UC10/Page_Registration/input_username'), 'admin')
 
-WebUI.setText(findTestObject('UC14/UC14-NormalFlow/Page_Registration/input_password'), 'admin')
+WebUI.setText(findTestObject('UC10/Page_Registration/input_password'), 'admin')
 
-WebUI.click(findTestObject('UC14/UC14-NormalFlow/Page_Registration/input_loginbtn'))
+WebUI.click(findTestObject('UC10/Page_Registration/input_loginbtn'))
 
-WebUI.navigateToUrl('http://localhost:4200/lecturer-crud')
+WebUI.click(findTestObject('UC10/Page_Registration/button_X'))
 
-WebUI.click(findTestObject('UC14/UC14-NormalFlow/Page_Registration/button_X'))
-
-WebUI.verifyElementPresent(findTestObject('UC14/UC14-NormalFlow/Page_Registration/span_Delete Success'), 0)
+WebUI.click(findTestObject('UC10/Page_Registration/span_Delete Success'))
 
 WebUI.closeBrowser()
 

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Delete Success</name>
+   <name>input_username</name>
    <tag></tag>
-   <elementGuidId>71d22e8d-57f6-4f59-b494-42a22ba35b2e</elementGuidId>
+   <elementGuidId>552e4e44-9cad-4bae-9083-f4d0f61b314f</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,34 +11,48 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>card-title red lighten-1 center</value>
+      <value>validate ng-untouched ng-dirty ng-valid</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>name</name>
       <type>Main</type>
-      <value>delete</value>
+      <value>username</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>type</name>
       <type>Main</type>
-      <value> Delete Success</value>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-name</name>
+      <type>Main</type>
+      <value>username</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-model</name>
+      <type>Main</type>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;delete&quot;)</value>
+      <value>id(&quot;username&quot;)/input[@class=&quot;validate ng-untouched ng-dirty ng-valid&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

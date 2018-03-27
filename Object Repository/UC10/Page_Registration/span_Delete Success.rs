@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Lecturer</name>
+   <name>span_Delete Success</name>
    <tag></tag>
-   <elementGuidId>8d254c21-9105-4c1d-b459-bc5a99e71b10</elementGuidId>
+   <elementGuidId>7f9cd149-4e86-4d83-af94-28b65d322e02</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,27 +11,34 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-title red lighten-1 center</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>id</name>
       <type>Main</type>
-      <value>/lecturer-crud</value>
+      <value>delete</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Lecturer</value>
+      <value> Delete Success</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/app-root[1]/app-student-crud[1]/body[@class=&quot;grey lighten-4&quot;]/nav[@class=&quot;blue darken-2&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;nav-wrapper&quot;]/ul[@class=&quot;right hide-on-med-and-down&quot;]/li[2]/a[1]</value>
+      <value>id(&quot;delete&quot;)</value>
    </webElementProperties>
 </WebElementEntity>
